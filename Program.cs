@@ -46,7 +46,7 @@ Array.Copy(array2, 0, array3, array1.Length, array2.Length);
 Array.Sort(array3);
 
 Console.Write("Method I found online, using the copy method: ");
-foreach(int num in array3)
+foreach (int num in array3)
 {
     Console.Write(num);
 }
